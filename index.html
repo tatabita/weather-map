@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="map">
+            <div class="weather-row">
+                <img id="weather"/>
+                <div class="info">
+                    <div>
+                        <span>Температура:</span>
+                        <span id="degrees"></span>
+                    </div>
+                    <div>
+                        <span>Обновлено в:</span>
+                        <span id="time"></span>
+                    </div>
+                    <div>
+                        <span>Влажность:</span>
+                        <span id="humidity"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="js/weather.js"></script>
+</html>

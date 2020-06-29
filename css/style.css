@@ -1,0 +1,21 @@
+#map {
+    height: 280px;
+}
+.weather-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.51);
+    padding-right: 5px;
+}
+.info{
+    margin-left: 10px ;
+}
+.info span{
+    font-family: SansSerif, sans-serif;
+    -webkit-text-stroke: .2px white;
+}
